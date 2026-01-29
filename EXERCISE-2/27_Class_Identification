@@ -1,0 +1,32 @@
+## Class Identification
+
+Class identification helps in identifying the main classes required to design the **Event Management Platform**.
+
+### Identified Classes
+
+### 1. User
+Represents a user of the system.  
+Users can have different roles such as Student, Event Organizer, or Administrator.
+
+### 2. Event
+Represents an event created within the system.  
+Stores details such as event name, date, time, venue, and description.
+
+### 3. Registration
+Represents the registration details of a student for an event.  
+Links users with events and stores registration status.
+
+### 4. Volunteer
+Represents volunteer enrollment details for events.  
+Includes volunteer role, assigned duties, and event association.
+
+### 5. Attendance
+Represents attendance records of participants and volunteers for events.
+
+### 6. Notification
+Represents system-generated messages related to event updates, registrations, or changes.
+
+### 7. Dashboard
+Represents the main interface where users can view events, registrations, attendance status, and participation history.
+
+Identifying these classes helps in structuring the system architecture and supports effective object-oriented design for the **Event Management Platform** during the design phase.
